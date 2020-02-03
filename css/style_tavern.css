@@ -1,0 +1,293 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-image: url(../img/BackGrounBig.jpg);
+}
+.wrapper{
+	width: 80%;
+	margin: auto;
+
+}
+*{
+	font-family: Palatino Linotype,Palatino,Hiragino Kaku Gothic Pro,Hiragino Kaku Gothic ProN W3,Osaka,メイリオ,Meiryo,ＭＳ\ Ｐゴシック,Asadong,Times,serif;
+}
+.wrapper h2{
+	color: #614326;
+	font-size: 32px;
+}
+.logo{
+	padding: 0px;
+}
+.header { 
+	background-image: url(../img/FuterBAck.png); 
+	padding: 0px; 
+	z-index: 1;
+	
+	margin-left: 0px;
+	margin-right: 0px;
+	border-radius: 10px;
+	
+}
+.header_content{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+
+}
+.wrapper_for_header{
+	width: 35%;
+	margin-left: 35%;
+	height: 800px;
+
+}
+.wrapper_for_header p{
+	font-size: 28px;
+}
+ ul.navigation{
+	margin-top:0px;
+}
+.navigation{ 
+	color: #fcd144;
+	list-style-type: none; 
+	padding-left: 5px;
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-between;
+} 
+.navigation a{ 
+    color: #fcd144;
+    cursor: pointer;
+    vertical-align: middle;
+    line-height: 73px;
+   font-size: 1vw;
+    text-decoration: none;
+}
+.navigation a:hover{
+	text-decoration: underline;
+}
+.bigBack{
+	background-image: url(../img/TavernBack.jpg);
+	background-position: -350px 0px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.devide{
+	position: relative;
+	background-image: url(../img/paper_border.png);
+	height: 56px;
+	width: 100%;
+	
+}
+.futer{
+	background-image: url(../img/FuterBAck.png);
+	padding: 0px; 
+	margin-top: 100px;
+	z-index: 1;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.line1{
+	display: flex;
+	box-sizing: border-box;
+	height: 110px;
+	border-top: 3px #d9be91 solid;
+	border-bottom: 3px #d9be91 solid;
+}
+.line2{
+	display: flex;
+	box-sizing: border-box;
+	height: 110px;
+	border-top: 3px #d9be91 solid;
+	border-bottom: 3px #d9be91 solid;
+	margin-top: 10px;
+}
+.icon{
+	background-image: url(../img/BigSprite.png);
+    background-position: 0 -784px;
+    width: 100px;
+    height: 100px;
+    display:  inline-block;
+}
+.info{
+	padding-left: 20px;
+	line-height: 110px;
+	font-size: 22px;
+}
+
+.navbar {
+
+	padding: 0px; 
+	z-index: 100;
+	
+	margin-left: 0px;
+	margin-right: 0px;
+	border-radius: 10px;
+}
+.navbar-expand-lg{
+	background-image: url(../img/FuterBAck.png);
+}
+.nav-link{
+	color: #fcd144;
+    cursor: pointer;
+    font-size: 24px;
+}
+.nav-link:hover{
+	color:#fcd144 !important;
+	text-decoration: underline !important;
+}
+.wrappercontent{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	
+}
+.main_tavern{
+	width:70%;
+}
+.sidebar{
+	width: 30%;
+	font-size: 18px;
+}
+.news{
+	display: flex;
+	flex-wrap: nowrap;
+	box-sizing: border-box;
+	border-bottom: 1px solid grey;
+	margin-bottom: 20px;
+	height: 90px;
+	margin-left: 5%;
+}
+.picture{
+	width: 40%;
+	height: 85px;
+	
+}
+.picture1{
+	background-image: url(../img/news1.jpg);
+	background-size: cover;
+}
+.picture2{
+	background-image: url(../img/news2.jpg);
+	background-size: cover;
+}
+.picture3{
+	background-image: url(../img/news3.jpg);
+	background-size: cover;
+}
+.picture4{
+	background-image: url(../img/news4.jpg);
+	background-size: cover;
+}
+.picture5{
+	background-image: url(../img/news5.jpg);
+	background-size: cover;
+}
+.picture6{
+	background-image: url(../img/news6.jpg);
+	background-size: cover;
+}
+.picture7{
+	background-image: url(../img/news7.jpg);
+	background-size: cover;
+}
+
+.textinfo{
+	width: 50%;
+	padding-left: 5%;
+}
+img {
+ max-width: 100%;
+ height: auto;
+ width: auto;
+}
+@media all and (max-width: 1280px){
+	.bigBack{
+	background-image: url(../img/TavernBack.jpg);
+	background-position: -600px 0px;
+
+}
+.tavern_logo{
+	margin-left: -20%;
+}
+.textinfo{
+	font-size: 1.2vw;
+}
+.info{
+	font-size: 1.8vw;
+}
+}
+@media all and (max-width: 991px){
+	.navbar-toggler-icon{
+		width: 0px;
+		height: 0px;
+	}
+	.wrapper_for_header{
+		display: none;
+	}
+
+	.bigBack{
+	background-image: none;
+}
+	.header_content{
+		height: 0px;
+	}
+}
+
+@media all and (max-width: 780px){
+	.futer1{
+	display: none;
+}	
+.futer2{
+	display: none;
+}
+.futer3{
+	display: none;
+}
+.futer4{
+	display: none;
+}
+.futer0{
+	width: 100%;
+}
+.navigation a{ 
+    color: #fcd144;
+    cursor: pointer;
+    vertical-align: middle;
+    line-height: 73px;
+    font-size: 3vw;
+    text-decoration: none;
+}
+
+	.info{
+	width:80%;
+}
+.main_tavern{
+	width: 90%;
+}
+	.sidebar{
+		display: none;
+	}
+	.info{
+	font-size: 2.2vw;
+}
+h2{
+	font-size: 16px;
+}
+}
+@media all and (max-width: 320px){
+	.info{
+	width:100%;
+}
+	.icon{
+		display: none;
+	}
+	.info{
+	font-size: 3.8vw;
+}
+}

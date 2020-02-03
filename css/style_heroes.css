@@ -1,0 +1,524 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-image: url(../img/BackGrounBig.jpg);
+	overflow-y: hidden;
+}
+*{
+	font-family: Palatino Linotype,Palatino,Hiragino Kaku Gothic Pro,Hiragino Kaku Gothic ProN W3,Osaka,メイリオ,Meiryo,ＭＳ\ Ｐゴシック,Asadong,Times,serif;
+}
+.wrapper{
+	width: 80%;
+	margin: auto;
+
+}
+.logo{
+	padding: 0px;
+}
+.header { 
+	background-image: url(../img/FuterBAck.png); 
+	padding: 0px; 
+	z-index: 1;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-radius: 10px;
+	
+}
+.header_content{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	height: 400px;
+
+}
+.wrapper_for_header{
+	width: 43%;
+	margin-left: 15%;
+	height: 170px;
+
+}
+.wrapper_for_header p{
+	font-size: 24px;
+}
+ ul.navigation{
+	margin-top:0px;
+}
+.navigation{ 
+	color: #fcd144;
+	list-style-type: none; 
+	padding-left: 5px;
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-between;
+} 
+.navigation a{ 
+    color: #fcd144;
+    cursor: pointer;
+    vertical-align: middle;
+    line-height: 73px;
+    font-size: 24px;
+    text-decoration: none;
+}
+.navigation a:hover{
+	text-decoration: underline;
+}
+.bigBack{
+	background-image: url(../img/BigOne.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 120px;
+}
+.headerh1{
+	padding-bottom: 0px;
+}
+.new_player{
+	text-align: center;
+	
+}
+.slider_heroes{
+	margin-top: 90px;
+}
+.scrin1{
+	background-image: url(../img/Djaina.jpg);
+	background-repeat: no-repeat;
+	height: 100vh;
+	
+	box-sizing: border-box;
+}
+.scrin2{
+	background-image: url(../img/Anduin.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
+.scrin3{
+	background-image: url(../img/Garrosh.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
+.scrin4{
+	background-image: url(../img/Guldan.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
+.scrin5{
+	background-image: url(../img/Malfurion.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
+.scrin6{
+	background-image: url(../img/Rexxar.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
+.scrin7{
+	background-image: url(../img/Shaman.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
+.scrin8{
+	background-image: url(../img/Valira.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
+.scrin9{
+	background-image: url(../img/Yther.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
+
+
+.slick-dots li button::before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 15px;
+	width: 28px;
+	height: 28px;
+	background-image: url(../img/gems.png);
+	background-position: -325px -262px ;
+	opacity: 1;
+}
+.devide{
+	position: relative;
+	background-image: url(../img/paper_border.png);
+	height: 56px;
+	width: 100%;
+	top: -50px;
+
+}
+.futer{
+	background-image: url(../img/FuterBAck.png);
+	padding: 0px; 
+	margin-top: 100px;
+	z-index: 1;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.power{
+	display: flex;
+	box-sizing: border-box;
+	height: 110px;
+	border-top: 3px hsla(0,0%,100%,.1) solid;
+	border-bottom: 3px hsla(0,0%,100%,.1) solid;
+}
+.hero_power{
+	width: 90px;
+	height: 100px;
+	background-image: url(../img/Spells.png);
+	display: inline-block;
+
+}
+.slider_content{
+	width: 50%;
+	color: white;
+	padding-left: 70px;
+}
+.slider_content p{
+	font-size: 22px;
+}
+.slider_content h2{
+	font-size: 28px;
+}
+.slider_content h1{
+	font-size: 32px;
+}
+.discription{
+	padding-left: 20px;
+	line-height: 104px;
+	font-size: 22px;
+
+}
+span{
+	color: #40e6ee;
+	font-size: 26px;
+}
+.hero_power_anduin{
+	width: 90px;
+	height: 100px;
+	background-image: url(../img/Spells.png);
+	background-position: -630px 0px;
+	display: inline-block;
+}
+.hero_power_garrosh{
+	width: 90px;
+	height: 100px;
+	background-image: url(../img/Spells.png);
+	background-position: -270px 0px;
+	display: inline-block;
+}
+.hero_power_guldan{
+	width: 90px;
+	height: 100px;
+	background-image: url(../img/Spells.png);
+	background-position: -450px 0px;
+	display: inline-block;
+}
+.hero_power_malfurion{
+	width: 90px;
+	height: 100px;
+	background-image: url(../img/Spells.png);
+	background-position: -360px 0px;
+	display: inline-block;
+}
+.hero_power_rexxar{
+	width: 90px;
+	height: 100px;
+	background-image: url(../img/Spells.png);
+	background-position: -90px 0px;
+	display: inline-block;
+}
+.hero_power_shaman{
+	width: 90px;
+	height: 100px;
+	background-image: url(../img/Spells.png);
+	background-position: -540px 0px;
+	display: inline-block;
+}
+.hero_power_valira{
+	width: 90px;
+	height: 100px;
+	background-image: url(../img/Spells.png);
+	background-position: -720px 0px;
+	display: inline-block;
+}
+.hero_power_yther{
+	width: 90px;
+	height: 100px;
+	background-image: url(../img/Spells.png);
+	background-position: -180px 0px;
+	display: inline-block;
+}
+.scrin2  p{
+	color: black;
+}
+.scrin5 p{
+	color: black;
+}
+.scrin2 span{
+	color: #b001d6;
+}
+.scrin3 span{
+	color: #feb246;
+}
+.scrin4 span{
+	color: #b165ff;
+}
+.scrin5 span{
+	color: #c40501;
+}
+.scrin6 span{
+	color: #8af549;
+}
+.scrin7 span{
+	color: #277dff;
+}
+.scrin8 span{
+	color: #cef549;
+}
+.scrin9 span{
+	color: #ec8ca9;
+}
+
+.hero-info{
+	font-size: 32px;
+	color: #614326;
+	text-align:center;
+	margin: 0px;
+	padding-bottom: 50px;
+}
+
+.navbar {
+
+	padding: 0px; 
+	z-index: 100;
+	
+	margin-left: 0px;
+	margin-right: 0px;
+	border-radius: 10px;
+}
+.navbar-expand-lg{
+	background-image: url(../img/FuterBAck.png);
+}
+.nav-link{
+	color: #fcd144;
+    cursor: pointer;
+    font-size: 24px;
+
+}
+.nav-link:hover{
+	color:#fcd144 !important;
+	text-decoration: underline !important;
+}
+.icons{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-bottom: 75px;
+}
+.frame{
+	width: 111px;
+	height: 127px;
+	background-image: url(../img/heroesborder.png);
+	position: relative;
+}
+.hero1{
+	background:  url(../img/heroessprite.png) no-repeat;
+    height:85px;
+    width: 72px;
+top: 21px;
+left: 20px;
+    z-index: 10;
+    position: absolute;
+}
+.hero2{
+	background:  url(../img/heroessprite.png) no-repeat;
+	background-position: -504px 0px;
+    height:85px;
+    width: 72px;
+top: 21px;
+left: 20px;
+    z-index: 10;
+    position: absolute;
+}
+.hero3{
+	background:  url(../img/heroessprite.png) no-repeat;
+	background-position:-216px 0px ;
+    height:85px;
+    width: 72px;
+top: 21px;
+left: 20px;
+    z-index: 10;
+    position: absolute;
+}
+.hero4{
+	background:  url(../img/heroessprite.png) no-repeat;
+	background-position:-360px 0px ;
+    height:85px;
+    width: 72px;
+top: 21px;
+left: 20px;
+    z-index: 10;
+    position: absolute;
+}
+.hero5{
+	background:  url(../img/heroessprite.png) no-repeat;
+	background-position: -288px 0px;
+    height:85px;
+    width: 72px;
+top: 21px;
+left: 20px;
+    z-index: 10;
+    position: absolute;
+}
+.hero6{
+	background:  url(../img/heroessprite.png) no-repeat;
+	background-position:-72px 0px;
+    height:85px;
+    width: 72px;
+top: 21px;
+left: 20px;
+    z-index: 10;
+    position: absolute;
+}
+.hero7{
+	background:  url(../img/heroessprite.png) no-repeat;
+	background-position: -432px 0px;
+    height:85px;
+    width: 72px;
+top: 21px;
+left: 20px;
+    z-index: 10;
+    position: absolute;
+}
+.hero8{
+	background:  url(../img/heroessprite.png) no-repeat;
+	background-position:-576px 0px;
+    height:85px;
+    width: 72px;
+top: 21px;
+left: 20px;
+    z-index: 10;
+    position: absolute;
+}
+.hero9{
+	background:  url(../img/heroessprite.png) no-repeat;
+	background-position:-144px 0px ;
+    height:85px;
+    width: 72px;
+top: 21px;
+left: 20px;
+    z-index: 10;
+    position: absolute;
+}
+img {
+ max-width: 100%;
+ height: auto;
+ width: auto;
+}
+h1{
+	text-align: center;
+	padding-bottom: 100px;
+}
+@media all and (max-width: 1280px){
+	.scrin{
+		background-position: -600px 0px;
+	}
+.discription{
+		font-size: 16px;
+	}
+	span{
+		font-size: 20px;
+	}
+}
+@media all and (max-width: 991px){
+	.navbar-toggler{background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#fcd144' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");} 
+.navbar-toggler{
+	width: 40px;
+}
+	.wrapper_for_header p{
+		font-size: 2.1vw;
+	}
+	
+	.power{
+		width: 600px;
+	}
+	.slider_content h1 {
+		padding-top: 200px;
+		font-size: 24px;
+	}
+	.slider_content h2 {
+		font-size: 20px;
+	}
+	.discription{
+		font-size: 16px;
+	}
+	span{
+		font-size: 20px;
+	}
+	.scrin{
+		background-position: -800px 0px;
+	}
+	
+	
+}
+.slick-next{
+	width: 0px;
+}
+.slick-next::before{
+	content: "";
+}
+@media all and (max-width: 806px){
+	.slider_content p{
+font-size: 2.5vw;
+	}
+}
+@media all and (max-width: 720px){
+	
+	body{
+	margin:0px;
+	padding: 0px;
+	background-image: url(../img/BackGrounBig.jpg);
+	overflow-y: auto;
+}
+	.scrin{
+		background-position: -1000px 0px;
+	}
+	.slider_content p{
+font-size: 3.4vw;
+	}
+	.slider_content h2 {
+		font-size: 0px;
+	}
+	.discription{
+		display: none;
+	}
+.slider_content{
+		width: 80%;
+	}
+}
+@media all and (max-width: 320px){
+	.wrapper_for_header{
+		width: 80%;
+	}
+	.wrapper_for_header p{
+		font-size: 4.8vw;
+	}
+.scrin{
+		background-position: -1300px 0px;
+	}
+	.slider_content{
+		width: 80%;
+	}
+	.slider_content p{
+		font-size: 5vw;
+	}
+}

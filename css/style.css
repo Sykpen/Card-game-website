@@ -1,0 +1,640 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-image: url(../img/BackGrounBig.jpg);
+
+}
+.wrapper{
+	width: 80%;
+	margin: auto;
+
+}
+.header { 
+	background-image: url(../img/FuterBAck.png); 
+	padding: 0px; 
+	z-index: 1;
+	
+	margin-left: 0px;
+	margin-right: 0px;
+	border-radius: 10px;
+	
+}
+.header_content{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+
+}
+.wrapper_for_header{
+	width: 43%;
+	margin-left: 15%;
+	margin-top: 5%;
+	overflow: hidden;
+}
+.wrapper_for_header p{
+	font-size: 1.4vw;
+}
+ ul.navigation{
+	margin-top:0px;
+}
+.navigation{ 
+	color: #fcd144;
+	list-style-type: none; 
+	padding-left: 5px;
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-between;
+} 
+.navigation a{ 
+    color: #fcd144;
+    cursor: pointer;
+    vertical-align: middle;
+    line-height: 73px;
+    font-size: 1vw;
+    text-decoration: none;
+}
+.navigation a:hover{
+	text-decoration: underline;
+}
+.bigBack{
+	top: 0px;
+	background-image: url(../img/back.jpg);
+	width: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 615px;
+	
+}
+.new_player{
+	text-align: center;
+	
+}
+
+
+.slider_players{
+	margin-top: 60px;
+	background-image: url(../img/Back_border.png);
+}
+.slider_players::after{
+	content: "";
+	display: block;
+	width: 800px;
+	height: 520px;
+	margin: auto;
+	background-image: url(../img/Back_border.png);
+	position: absolute;
+	top: -39px;
+	left: -58.5px;
+	z-index: -1;
+}
+.slider_players::before{
+	content: "";
+	position: absolute;
+	display: block;
+	background-image: url(../img/MRGLGLGLGLG.png);
+	width: 390px;
+	height: 315px;
+	left: -390px;
+}
+
+.border_text{
+	position: absolute;
+	z-index: 10;
+	font-size: 24px;
+	color: white;
+	top:7%;
+	left: 47%;
+}
+
+
+.scrin slick-slide slick-current slick-active{
+	min-width: 720px;
+}
+.wrapper_slider{
+	width: 720px;
+	margin: auto;
+}
+.wrapper_slider p{
+
+	font-size: 24px;
+}
+.wrapperungoro{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	font-size: 24px;
+}
+.slick-next::before {
+	content:"";
+    display: block;
+    position: absolute;
+    left: 10px;
+	 width: 90px;
+    height: 80px;
+    background-image: url(../img/Arrows.png);
+    background-position: -100px;
+    z-index: 2;
+    opacity: 1;
+}
+.slick-prev::before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 10px;
+	 width: 90px;
+    height: 80px;
+    background-image: url(../img/Arrows.png);
+    z-index: 2;
+    opacity: 1;
+}
+.slick-dots li button::before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 15px;
+	width: 28px;
+	height: 28px;
+	background-image: url(../img/gems.png);
+	background-position: -325px -262px ;
+	opacity: 1;
+}
+.devide{
+	position: relative;
+	background-image: url(../img/paper_border.png);
+	height: 56px;
+	width: 100%;
+}
+.devide1{
+	margin-top: 80px;
+
+}
+.futer{
+	background-image: url(../img/FuterBAck.png);
+	padding: 0px; 
+	margin-top: 50px;
+	z-index: 1;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.info{
+	box-sizing: border-box;
+	padding-top: 30px;
+	background-image: url(../img/Heroes.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 28px;
+	height: 845px;
+}
+.info_info{
+	width: 40%;
+	margin: auto;
+}
+b{
+	color: #233a6e;
+	font-weight: 700;
+}
+.scrin{
+	background-image: url(../img/Back_border.png);
+}
+*{
+	font-family: Palatino Linotype,Palatino,Hiragino Kaku Gothic Pro,Hiragino Kaku Gothic ProN W3,Osaka,メイリオ,Meiryo,ＭＳ\ Ｐゴシック,Asadong,Times,serif;
+}
+.navbar {
+
+	padding: 0px; 
+	z-index: 100;
+	
+	margin-left: 0px;
+	margin-right: 0px;
+	border-radius: 10px;
+}
+.navbar-expand-lg{
+	background-image: url(../img/FuterBAck.png);
+}
+.nav-link{
+	color: #fcd144;
+    cursor: pointer;
+    font-size: 24px;
+}
+.nav-link:hover{
+	color:#fcd144 !important;
+	text-decoration: underline !important;
+}
+.wrapper-news{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+.wrapper-news h2{
+	padding-bottom: 40px;
+}
+.news{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.new{
+	width: 380px;
+	height: 300px;
+	box-sizing: border-box;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 15px;
+
+}
+.content{
+	margin-bottom: 40px;
+}
+.image1{
+	width: 380px;
+	height: 200px;
+	background-image: url(../img/new1.jpg);
+	background-size: cover;
+	border-radius: 15px;
+}
+.image2{
+	width: 380px;
+	height: 200px;
+	background-image: url(../img/new2.jpg);
+	background-size: cover;
+	border-radius: 15px;
+}
+.image3{
+	width: 380px;
+	height: 200px;
+	background-image: url(../img/new3.jpg);
+	background-size: cover;
+	border-radius: 15px;
+}
+.image4{
+	width: 380px;
+	height: 200px;
+	background-image: url(../img/new4.jpg);
+	background-size: cover;
+	border-radius: 15px;
+}
+.read{
+	width: 380px;
+	height: 100px;
+	box-sizing: border-box;
+	padding: 10px;
+	line-height: 80px;
+	background-image: url(../img/backfornews.png);
+	background-position: 0px -43px;
+	background-size: cover;
+	border-radius: 15px;
+}
+.new:hover{
+	transform: scale(1.2);
+	
+}
+.ungoro{
+	background-image: url(../img/ungoroback.jpg);
+	height: 700px;
+	background-size: auto;
+}
+.ungorotext{
+	text-align: center;
+	color: white;
+	font-size: 3.5em;
+
+}
+.pictures{
+	position: relative;
+}
+.ung1{
+	width: 300px;
+	height: 350px;
+	position: absolute;
+	z-index: 2;
+	top: 200px;
+	left: 100px;
+	transform: rotate(-15deg)
+}
+.ung1:hover{
+	transform: scale(1.6);
+	
+}
+.ung2:hover{
+	transform: scale(1.6);
+	
+}
+.ung3:hover{
+	transform: scale(1.6);
+	
+}
+img {
+ max-width: 100%;
+ height: auto;
+ width: auto;
+}
+.ung2{
+	width: 300px;
+	height: 350px;
+	position: absolute;
+	z-index: 2;
+	top: 200px;
+	left: 400px;
+}
+.ung3{
+	width: 300px;
+	height: 350px;
+	position: absolute;
+	z-index: 2;
+	top: 200px;
+	left: 700px;
+	transform: rotate(15deg)
+}
+
+.ung4{
+	width: 900px;
+	height: 550px;
+	position: absolute;
+	left: 20px;
+	z-index: 1;
+}
+.test{
+	position: absolute;
+	left: 70%;
+}
+	.to-top {
+		display: none;
+		padding: 15px;
+		position: fixed;
+		right: 1px;
+		bottom: 30px;
+		color: #000;
+		text-decoration: none;
+		opacity: .7;
+		width: 299px;
+		height: 300px;
+		background-image: url(../img/111.png);
+		background-repeat: no-repeat;
+		
+	}
+	.to-top:hover {
+	opacity: 1;
+	}
+@media all and (max-width: 1280px){
+
+	.test{
+		display: none;
+	}
+	.wrapper_for_header{
+		width: 80%;
+	}
+.info{
+	box-sizing: border-box;
+	padding-top: 0px;
+	background-image: url(../img/Heroes.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 22px;
+	height: 845px;
+}
+.info_info{
+	width: 40%;
+	margin: auto;
+}
+.slider_players::before{
+	content: "";
+	position: absolute;
+	display: block;
+	background-image: url();
+	width: 390px;
+	height: 315px;
+	left: -390px;
+}
+}
+@media all and (max-width: 992px){
+	.navbar-toggler{background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#fcd144' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");} 
+.navbar-toggler{
+	width: 40px;
+}
+	.to-top {
+		display: none;
+		padding: 15px;
+		position: fixed;
+		right: 1px;
+		bottom: 30px;
+		color: #000;
+		text-decoration: none;
+		opacity: .0001;
+		width: 0.1px;
+		height: 0.1px;
+		background-image: url(../img/111.png);
+		background-repeat: no-repeat;
+	}
+	.to-top:hover {
+	opacity: none;
+	}
+.ung1:hover{
+	transform: none;
+	
+}
+.ung2:hover{
+	transform: none;
+	
+}
+.ung3:hover{
+	transform: none;
+	
+}
+	.wrapper_for_header h1{
+		font-size: 24px;
+	}
+	.wrapper_for_header p{
+	font-size: 16px;
+
+}
+.slider_players::before{
+	content: "";
+	position: absolute;
+	display: block;
+	background-image: url();
+	width: 390px;
+	height: 315px;
+	left: -390px;
+}
+.bigBack{
+	top: 0px;
+	background-image: url(../img/back.jpg);
+	width: 100%;
+	background-position: -200px 0px;
+	
+}
+.info{
+	box-sizing: border-box;
+	padding-top: 0px;
+	background-image: url(../img/Heroes.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 20px;
+	height: 845px;
+}
+.info_info{
+	width: 40%;
+	margin: auto;
+}
+}
+@media all and (max-width: 720px){
+.futer1{
+	display: none;
+}	
+.futer2{
+	display: none;
+}
+.futer3{
+	display: none;
+}
+.futer4{
+	display: none;
+}
+.futer0{
+	width: 100%;
+}
+.navigation a{ 
+    color: #fcd144;
+    cursor: pointer;
+    vertical-align: middle;
+    line-height: 73px;
+    font-size: 3vw;
+    text-decoration: none;
+}
+.wrapper_slider{
+	width: 100vw;
+	margin: auto;
+}
+
+.slider_players::after{
+	content: " ";
+	background-image: none;
+
+}
+.ungoro{
+	height: 0px;
+}
+.ungorotext{
+	display: none;
+}
+.info{
+	background-image: none;
+}
+.ung2{
+	display: none;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	z-index: 2;
+	top: 200px;
+	left: 400px;
+}
+.ung3{
+	display: none;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	z-index: 2;
+	top: 200px;
+	left: 700px;
+	transform: rotate(15deg)
+}
+
+.ung4{
+	display: none;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	left: 20px;
+	z-index: 1;
+}
+.ung1{
+	width: 300px;
+	height: 350px;
+	margin:auto;
+	display: none;
+}
+.info_info{
+	width: 100%;
+	font-size: 24px;
+}
+.info{
+	height: 435px;
+}
+}
+
+@media all and (max-width: 320px){
+	.li4{
+		display: none;
+	}
+	.new:hover{
+	transform: none;
+}
+.wrapper_for_header {
+	overflow: hidden;
+}
+
+
+
+.wrapper_slider{
+	width: 100%;
+	margin: auto;
+}
+
+.slider_players::after{
+	content: " ";
+	background-image: none;
+
+}
+.pictures{
+	position:none;
+}
+.ung2{
+	display: none;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	z-index: 2;
+	top: 200px;
+	left: 400px;
+}
+.ung3{
+	display: none;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	z-index: 2;
+	top: 200px;
+	left: 700px;
+	transform: rotate(15deg)
+}
+
+.ung4{
+	display: none;
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	left: 20px;
+	z-index: 1;
+}
+.ung1{
+	width: 300px;
+	height: 350px;
+	margin:auto;
+	display: none;
+}	
+.ungoro{
+	height: 0px;
+}
+.ungorotext{
+	display: none;
+}
+.info{
+	background-image: none;
+}
+}
